@@ -15,13 +15,12 @@ i.e.:
 ```
 bash gendir.sh  outputfile 
  
- type some text it
- more text to at
+ type some text
+ more text to add
 ```
  result in out.txt:
 ```
-at
-it
+add
 more
 some
 text
