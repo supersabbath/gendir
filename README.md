@@ -15,7 +15,7 @@ i.e.:
 ```
 bash gendir.sh  outputfile 
  
- type one text it
+ type some text it
  more text to at
 ```
  result in out.txt:
@@ -23,7 +23,7 @@ bash gendir.sh  outputfile
 at
 it
 more
-one
+some
 text
 to
 type
