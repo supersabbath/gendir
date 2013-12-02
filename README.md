@@ -9,23 +9,22 @@ Usage:
 
 example:
 ```
-./gendir output_file.txt inputfile.txt anotherinput.html anytextfile 
+user$ ./gendir output_file.txt inputfile.txt anotherinput.html anytextfile 
 ```
 
 You can also use it to joint words from the stdinput:
 i.e.: 
 ```
-bash gendir.sh  outputfile 
- 
- type one text it
- more text to at
+user$ bash gendir.sh  outputfile 
+ type some text it
+ more text to add
 ```
- result in out.txt:
+And the result in out.txt:
 ```
-at
+add
 it
 more
-one
+some
 text
 to
 type
