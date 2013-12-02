@@ -5,6 +5,14 @@
 #
 #  Created by Fernando Canon on 11/11/13.
 #
+#	Gendic generates a dictionary from a file or list of files, specified as command line arguments.
+#	Gendic also is capable of generating a dictionary from written text on the stdinput .
+#	The dictionary is sorted in alphabetical order, the words ocurrence is defined as only one
+# 	by each repetition of a word. A word is consider to be a secuence of character whithin the range
+#	[a-z]. Case is ignored, meaning that result will be outputed in lowercase.
+#	The output file, must be specified as the first argument of the script.
+#
+
 
 #CONSTANTS and errors based in http protocol 1xx 2xx 3xx 4XX but in the rage of [0 -255]
 ERROR_NO_INPUTFILE=44
