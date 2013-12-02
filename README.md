@@ -1,30 +1,29 @@
 gendir
 ======
-
-Script to generate a dictionary from a text file or stdinput. it could be  use to joint two different list of words.
-each word will be unique on the ouput list:
+A Script to generate a dictionary of words from a text file or stdin. It also could be used to joint two different lists of words in different files. In output file each word will be unique:
 
 Usage:
   gendir.sh [-h | -v] outputfile inputfile ...
 
 example:
 ```
-user$ ./gendir output_file.txt inputfile.txt anotherinput.html anytextfile 
+./gendir output_file.txt inputfile.txt anotherinput.html anytextfile 
 ```
 
 You can also use it to joint words from the stdinput:
 i.e.: 
 ```
-user$ bash gendir.sh  outputfile 
- type some text it
- more text to add
+bash gendir.sh  outputfile 
+ 
+ type one text it
+ more text to at
 ```
-And the result in out.txt:
+ result in out.txt:
 ```
-add
+at
 it
 more
-some
+one
 text
 to
 type
